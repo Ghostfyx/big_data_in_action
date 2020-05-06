@@ -23,7 +23,7 @@ public class Chap05Demo {
                 .getOrCreate();
         String filePath = "/Users/yuexiangfan/coding/bigData/big_data_in_action/src/main/java/org/bigdata/spark/spark_the_definitive_guide/data/flight_data/json/2015-summary.json";
         Dataset<Row> flightDf = spark.read().json(filePath);
-        StructType staticSchema = flightDf.schema();
+        flightDf.printSchema();
         // 自定义Schema
         StructType mySchema = new StructType(new StructField[]{
                 DataTypes.createStructField("DEST_COUNTRY_NAME", DataTypes.StringType, true),
