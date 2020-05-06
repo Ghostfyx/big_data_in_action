@@ -1,4 +1,4 @@
-package org.bigdata.spark.learning_spark_fast_data_analysis.chap02_spark_overview;
+package org.bigdata.spark.spark_the_definitive_guide.chap02_spark_overview;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

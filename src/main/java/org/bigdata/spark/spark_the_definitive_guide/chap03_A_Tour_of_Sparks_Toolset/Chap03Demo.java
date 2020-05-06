@@ -1,4 +1,4 @@
-package org.bigdata.spark.learning_spark_fast_data_analysis.chap03_A_Tour_of_Sparks_Toolset;
+package org.bigdata.spark.spark_the_definitive_guide.chap03_A_Tour_of_Sparks_Toolset;
 
 import org.apache.spark.sql.Column;
 import org.apache.spark.sql.Dataset;
